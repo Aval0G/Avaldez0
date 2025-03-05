@@ -6,7 +6,7 @@
             <v-img src="/profile.jpg" alt="Foto de perfil" />
           </v-avatar>
           <h1 class="mt-4">Aldo Valdez</h1>
-          <p class="text-subtitle-1">Estudiante de Ingeniería de Software</p>
+          <p class="text-subtitle-1">Estudiante de Ingeniería de Software 6H</p>
         </v-card-title>
   
         <v-divider></v-divider>
