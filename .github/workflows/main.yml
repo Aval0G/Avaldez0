@@ -3,7 +3,7 @@ name: Deploy Vue to Hostinger
 on:
   push:
     branches:
-      - main  
+      - main  # Cambia si tu rama principal es otra
 
 jobs:
   build-and-deploy:
@@ -16,7 +16,7 @@ jobs:
     - name: 📦 Configurar Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 18  
+        node-version: 18
 
     - name: 📦 Instalar dependencias
       run: npm install
@@ -24,11 +24,18 @@ jobs:
     - name: 🏗️ Construir la aplicación Vue
       run: npm run build
 
+    - name: 🔍 Verificar Secrets (temporal)
+      run: |
+        echo "FTP_SERVER=${{ secrets.FTP_SERVER }}"
+        echo "FTP_USERNAME=${{ secrets.FTP_USERNAME }}"
+        echo "FTP_PASSWORD=********"
+
     - name: 📂 Subir archivos a Hostinger vía FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./dist/   
+        port: 21
+        local-dir: ./dist/
         server-dir: /public_html/
