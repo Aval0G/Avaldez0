@@ -45,5 +45,5 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         port: 21
         local-dir: ./dist/  # Solo sube los archivos de la carpeta dist
-        server-dir: /
+        server-dir: ./
 
