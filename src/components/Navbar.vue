@@ -27,6 +27,9 @@ import { ref } from 'vue';
 const drawer = ref(false);
 const menuItems = ref([
   { text: 'Inicio', link: '/' },
-  { text: 'Sobre mí', link: '/about' },
+  { text: 'Sobre mí', link: '/sobre_mi' },
+  { text: 'Proyectos', link: '/proyectos' },
+  { text: 'Habilidades', link: '/habilidades' },
+  { text: 'Contacto', link: '/contacto' },
 ]);
 </script>

@@ -10,5 +10,4 @@
 
 <script setup>
 import Navbar from './components/Navbar.vue';
-import Curriculum from './components/CurriculumVitae.vue'; // Asegúrate de la ruta correcta
 </script>
