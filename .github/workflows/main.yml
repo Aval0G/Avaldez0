@@ -37,5 +37,5 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         port: 21
-        local-dir: ./dist/
+        local-dir: ./dist/  # Asegúrate de que ./dist/ contiene solo los archivos y no una subcarpeta.
         server-dir: /public_html/
