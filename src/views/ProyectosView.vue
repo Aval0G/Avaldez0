@@ -63,6 +63,7 @@
     {
       title: "Replicacion de pagina usando Vue",
       link: "https://github.com/Aval0G/Marca.git",
+      live: "https://aval0g.github.io/Marca/",
       description: "Replicacion de la pagina https://www.marca.com/mx/.",
     },
     {

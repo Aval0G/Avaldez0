@@ -5,8 +5,9 @@
           <v-avatar size="120">
             <v-img src="/profile.jpg" alt="Foto de perfil" />
           </v-avatar>
-          <h1 class="mt-4">Aldo Valdez</h1>
-          <p class="text-subtitle-1">Estudiante de Ingeniería de Software 6H</p>
+          <h1 class="mt-4">Aldo Eduardo Valdez Gutierrez</h1>
+          <p class="text-subtitle-1">Estudiante de Ingeniería de Software</p>
+          <p class="text-subtitle-1">Universidad de Colima</p>
         </v-card-title>
   
         <v-divider></v-divider>
@@ -20,17 +21,17 @@
               </v-col>
   
               <v-col cols="12">
-                <h2>Proyectos</h2>
+                <h2>Algunos de mis Proyectos</h2>
                 <v-list>
                   <v-list-item>
-                    <v-list-item-title><strong>Facultad de Telemática 2-H Métodos Numéricos</strong></v-list-item-title>
-                    <v-list-item-subtitle>Repositorio en GitHub</v-list-item-subtitle>
-                    <p>Proyecto enfocado en la implementación de métodos numéricos utilizando C#.</p>
+                    <v-list-item-title><strong>Sistema Administracion Gimnasio .NET</strong></v-list-item-title>
+                    <v-list-item-subtitle><a href="https://github.com/SSC-UdeC/Gimnasio">Repositorio en GitHub</a> </v-list-item-subtitle>
+                    <p>Sistema de administracion de un Gimnasio usando .NET</p>
                   </v-list-item>
                   <v-list-item>
-                    <v-list-item-title><strong>Facultad de Telemática 3-H Base de Datos</strong></v-list-item-title>
-                    <v-list-item-subtitle>Repositorio en GitHub</v-list-item-subtitle>
-                    <p>Desarrollo de proyectos relacionados con bases de datos y su gestión.</p>
+                    <v-list-item-title><strong>Collabtales</strong></v-list-item-title>
+                    <v-list-item-subtitle><a href="https://github.com/jd-becerra/collabtales">Repositorio en GitHub</a></v-list-item-subtitle>
+                    <p>Plataforma web para crear y desarrollar cuentos de manera colaborativa.</p>
                   </v-list-item>
                 </v-list>
               </v-col>
@@ -49,7 +50,7 @@
   
               <v-col cols="12">
                 <h2>Contacto</h2>
-                <p>Email: chsjajaa@gmail.com</p>
+                <p>Email: <a href="mailto:trabajo@avaldez0.com" target="_blank">trabajo@avaldez0.com</a> </p>
                 <p>LinkedIn: <a href="https://www.linkedin.com/in/aldo-valdez-5036a315b" target="_blank">linkedin.com/in/aldo-valdez-5036a315b</a></p>
               </v-col>
             </v-row>
